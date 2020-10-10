@@ -36,7 +36,7 @@ function Header() {
           <li>
             <a href="#projects">Projects</a>
           </li>
-          <li>
+          {/* <li>
             <a href="#achievements">Achievements</a>
           </li>
           <li>
@@ -44,7 +44,7 @@ function Header() {
           </li>
           <li>
             <a href="#talks">Talks</a>
-          </li>
+          </li> */}
           <li>
             <a href="#contact">Contact Me</a>
           </li>

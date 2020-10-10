@@ -10,7 +10,7 @@ const greeting = {
   username: "Arsslensoft",
   title: "Hi all, I'm Arsslen",
   subTitle: emoji("A passionate Software Engineer 🚀 having an experience of building Web and Desktop applications with .NET / Reactjs / Neo4j / SQL and some other cool libraries, tools and frameworks."),
-  resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
+  resumeLink: "https://drive.google.com/file/d/1Yg0ctZu058_KLY3t2XAUaBvwqE4s9du-/view?usp=sharing"
 };
 
 // Your Social Media Link
@@ -30,17 +30,37 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What i do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "PASSIONATE FULL STACK DEVELOPER WHO LOVES PRODUCT BUILDING",
   skills: [
-    emoji("⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji("⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean")
+    emoji("⚡ Develop enterprise grade applications and design a robust architecture/infrastructure to support it."),
+    emoji("⚡ A T-shaped professional specialised in .NET."),
+    emoji("⚡ A joker card team-player, productive in any position at SDLC.")
   ],
 
 /* Make Sure You include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
+    {
+      skillName: ".NET",
+      fontAwesomeClassname: "fab fa-microsoft"
+    },
+    {
+      skillName: "Unity",
+      fontAwesomeClassname: "fab fa-unity"
+    },
+    {
+      skillName: "Neo4j",
+      fontAwesomeClassname: "fas fa-project-diagram"
+    },
+    {
+      skillName: "SQL",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "Git",
+      fontAwesomeClassname: "fab fa-git-alt"
+    },
     {
       skillName: "html-5",
       fontAwesomeClassname: "fab fa-html5"
@@ -66,32 +86,20 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "Php",
+      fontAwesomeClassname: "fab fa-php"
     },
     {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
+      skillName: "Azure",
+      fontAwesomeClassname: "fas fa-cloud"
     },
     {
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
+    },
+    {
+      skillName: "Kubernetes",
+      fontAwesomeClassname: "fas fa-dharmachakra"
     }
   ]
 };
@@ -102,24 +110,23 @@ const educationInfo = {
   viewEducation: true, // Set it to true to see education section
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "National Institute of Applied Sciences and Technology",
+      logo: require("./assets/images/insatLogo.png"),
+      subHeader: "Bachelor of Engineer in Software Engineering (BAC+5)",
+      duration: "September 2014 - June 2019",
+      desc: "Graduated with excellent merit.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Financial Trading & Banking optional subjects.",
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
+      schoolName: "Ali Douagi High School",
+      logo: require("./assets/images/medu.jpg"),
+      subHeader: "Computer Science",
+      duration: "September 2010 - June 2014",
+      desc: "Occupied third place in the country.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "1st in the Tunis region under the Computer Science major national exam (BAC)",
       ]
     }
   ]
@@ -131,16 +138,24 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design",  //Insert stack or technology you have experience in
-      progressPercentage: "90%"  //Insert relative proficiency in percentage
+      Stack: "Desktop applications",
+      progressPercentage: "90%"
     },
     {
-      Stack: "Backend",
+      Stack: "Backend Development", 
+      progressPercentage: "85%" 
+    },
+    {
+      Stack: "Leadership & Engineering Management",
+      progressPercentage: "80%"
+    },
+    {
+      Stack: "DevOps & System Administration",
       progressPercentage: "70%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
+      Stack: "Frontend Development",
+      progressPercentage: "55%"
     }
   ]
 };
@@ -152,29 +167,25 @@ const workExperiences = {
   viewExperiences: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      role: "Chief Technology Officer",
+      company: "GO MY CODE",
+      companylogo: require("./assets/images/gomycode.jpg"),
+      date: "February 2019 – Present",
+      desc: "During my mission, our contributions enabled the company to raise 850K USD (Anava Seed Funds), to develop and expand its operations. The company platforms enabled the business to scale in multiple locations providing multiple educational products to B2B/B2C market.",
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: ".NET Developer",
+      company: "GO MY CODE",
+      companylogo: require("./assets/images/gomycode.jpg"),
+      date: "Oct 2017 – Feb 2019",
+      desc: "During my mission, I participated in the development of the company engineering department by handling the DevOps and by contributing extensively the main products in terms of R&D."
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Freelancer & Co-Founder",
+      company: "PHEXONITE",
+      companylogo: require("./assets/images/phexonite.png"),
+      date: "Aug 2016 – Oct 2017",
+      desc: "I worked in freelance with a team of 5 collaborators on different web and desktop applications using PHP and C# .NET for the account of clients (Hexagone mobile France, Cyntillion Solutions, La Planète des fournitures, Robograf/Placeholders...)."
     },
   ]
 };
@@ -196,12 +207,17 @@ const bigProjects = {
   subtitle: "SOME X STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      link: "http://saayahealth.com/"
+      image: require("./assets/images/gomycode.svg"),
+      link: "https://gomycode.co/"
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      link: "http://nextu.se/"
+      image: require("./assets/images/robograf.png"),
+      link: "http://robograf.me"
+    }
+    ,
+    {
+      image: require("./assets/images/hexagone.jpg"),
+      link: "https://hexagonemobile.fr"
     }
   ]
 };
@@ -301,7 +317,7 @@ const contactInfo = {
 
 const twitterDetails = {
 
-  userName : "twitter"//Replace "twitter" with your twitter username without @
+  userName : "arsslen_idadi"//Replace "twitter" with your twitter username without @
 
 };
 export { greeting, socialMediaLinks, skillsSection, educationInfo, techStack, workExperiences, openSource, bigProjects, achievementSection, blogSection, talkSection, podcastSection, contactInfo , twitterDetails};
